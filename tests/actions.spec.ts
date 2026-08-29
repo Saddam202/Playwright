@@ -19,7 +19,7 @@ const loginBtn = page.getByRole('button',{name:"Login"});
 // got to nebula website
 await page.goto(url);
 //fill  the username
-await userNameInputField.fill('username');
+await userNameInputField.fill(username);
 //fill  the password
 await passwordInputField.fill(password);
 await loginBtn.click();
