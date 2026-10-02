@@ -1,4 +1,5 @@
 import {expect, Locator, test} from '@playwright/test';
+import HomePage from '../pages/HomePage';
 
 const userName ='tomsmith';
 const Password ='SuperSecretPassword!';
@@ -106,6 +107,7 @@ await page.mouse.up();
 //drag boxA to boxB second way
 
 await boxB.dragTo(boxA);
+await 
 
 await page.waitForTimeout(2000)
 })
