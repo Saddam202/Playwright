@@ -30,7 +30,7 @@ export default class HomePage extends BasePage {
     await this.actions.clickOnElement(this.dragAndDropSectionBtn);
   }
   async clickOnDragAndDropSectionBtn() {
-    this.actions.clickOnElement(this.dragAndDropSectionBtn)
+    await this.actions.clickOnElement(this.dragAndDropSectionBtn)
   }
   async clickCheckboxesBtn() {
     this.actions.clickOnElement(this.checkboxesBtn)

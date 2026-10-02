@@ -38,6 +38,7 @@ export default class LoginPage extends BasePage {
         else{
         await this.assertations.assertElementVisible(this.logoutBtn);
         }
+        await this.waits.waitForPageToFullyLoad();  
     }
  
     async goToURL(){
